@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "webpack serve --open",
-    "dev": "webpack --mode development"
+    "dev": "webpack --mode development",
+    "test": "jest"
   },
   "devServer": {
     "static": "./dist"
